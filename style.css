@@ -262,7 +262,7 @@ button.subcribe-button {
   .container {
     width: 100%;
   }
-  .banner , .products , .fearure-shop {
+  .banner , .products , .newslatter-area , .fearure-shop {
     grid-template-columns: repeat(1, 1fr);
     height: fit-content;
 }
