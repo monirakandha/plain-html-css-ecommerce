@@ -320,3 +320,39 @@ input[type="text"] {
 }
 
   }
+
+  /* responsive for tablet  */
+
+@media only screen and (min-width:688px) and (max-width:992px){
+  /* common csss  */
+  .container {
+      width: 100%;
+    }
+
+    .banner , .products , .newslatter-area , .fearure-shop {
+      grid-template-columns: repeat(2, 1fr);
+      height: fit-content;
+  }
+/* hero area  */
+  .banner-right {
+    background-size: contain;
+}
+
+/* branding area  */
+.branding-area {
+  
+  grid-template-columns: repeat(4, 1fr);
+  
+}
+.client-logo {
+
+  margin: 10px;
+}
+
+/* newslatter area  */
+input[type="text"] {
+   width: auto; 
+}
+
+
+}
