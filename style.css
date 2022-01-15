@@ -75,8 +75,7 @@ nav {
 }
 /* banner area css  */
 .banner {
-  height: calc(100vh - 100px);
-  min-height: 500px;
+  height: auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
@@ -88,6 +87,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: end;
+  background-size: contain;
 }
 .banner-right img {
   transform: translateY(-10%);
