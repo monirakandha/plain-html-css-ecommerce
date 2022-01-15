@@ -53,7 +53,7 @@ nav {
     font-size: 16px;
     line-height: 24px;
 }
-
+/* banner area css  */
 .banner {
     height: calc(100vh - 100px);
     min-height: 500px;
@@ -86,3 +86,21 @@ nav {
     margin: 20px 0px;
 }
 /* end of header area  */
+
+/* branding area css  */
+section#brand-zone {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.branding-area {
+    display: grid;
+    grid-template-columns: repeat(8 , 1fr);
+    padding: 40px;
+}
+
+.client-logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
