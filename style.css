@@ -228,6 +228,9 @@ button.subcribe-button {
   justify-content: center;
   align-items: end;
 }
+.newslatter-banner img {
+  width: 100%;
+}
 
 .fearure-shop {
   display: grid;
@@ -337,6 +340,9 @@ input[type="text"] {
 }
 .fearure-shop {
   text-align: center;
+}
+.newslatter-banner img {
+  width: 100%;
 }
 
   }
