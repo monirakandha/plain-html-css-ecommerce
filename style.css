@@ -254,3 +254,69 @@ button.subcribe-button {
   color: #fff;
   margin: 10px;
 }
+
+/* responsive code for mobile  */
+
+@media only screen and (max-width: 688px) {
+
+  .container {
+    width: 100%;
+  }
+  .banner , .products , .fearure-shop {
+    grid-template-columns: repeat(1, 1fr);
+    height: fit-content;
+}
+nav {
+
+  justify-content: center;
+}
+.navigation {
+  display: none;
+}
+.banner-right {
+  background-size: contain;
+}
+.banner-right img {
+  width: 100%;
+}
+.banner-left {
+  order: 2;
+  margin-top: 30px;
+  align-items: center;
+}
+
+.banner-left h1 {
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+}
+.banner-left p {
+  text-align: center;
+}
+.branding-area {
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  height: 200px;
+  align-items: center;
+  gap: 13px;
+}
+
+/* newslatter section */
+.newslatter-details h5 {
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  margin-left: -32px;
+}
+
+input[type="text"] {
+  width: auto;
+}
+.newslatter-banner {
+  margin-top: 40px;
+}
+.fearure-shop {
+  text-align: center;
+}
+
+  }
