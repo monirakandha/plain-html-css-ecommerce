@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,p,a{
+    color: #000;
+}
+
+/* common css  */
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+button.primary-button {
+    background-color: #E02C6D;
+    border-radius: 42px;
+    color: #fff;
+    padding: 10px 24px 10px 24px;
+    border: 1px solid #fff;
+}
+
+/* end of common css */
+/* header area css  */
+.header-left h5 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+}
+nav {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.navigation {
+    display: flex;
+}
+.navigation li {
+    list-style: none;
+    margin: 10px;
+}
+
+.navigation li a {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.banner {
+    height: calc(100vh - 100px);
+    min-height: 500px;
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+}
+
+.banner-right {
+    background-image: url(images/camera-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.banner-left {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+}
+.banner-left h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 70px;
+}
+.banner-left p {
+    margin: 20px 0px;
+}
+/* end of header area  */
