@@ -31,7 +31,22 @@ button.primary-button {
   padding: 10px 24px 10px 24px;
   border: 1px solid #fff;
 }
+/* animation css  */
+@keyframes floater {
+	0% {
+	
+		transform: translatey(0px);
+	}
+	50% {
+		
+		transform: translatey(-20px);
+	}
+	100% {
 
+		transform: translatey(0px);
+	}
+}
+/* end of animation css */
 /* end of common css */
 /* header area css  */
 .header-left h5 {
@@ -74,7 +89,12 @@ nav {
   justify-content: center;
   align-items: end;
 }
-
+.banner-right img {
+  transform: translateY(-10%);
+  animation: floater 1.5s infinite;
+  transition: ease 0.5s;
+  
+}
 .banner-left {
   display: flex;
   align-items: flex-start;
